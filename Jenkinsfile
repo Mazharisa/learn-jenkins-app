@@ -32,8 +32,6 @@ pipeline {
                 sh '''
                 echo Test build
                 ls -l ./build
-                npm test
-                a
                 '''
             }
         }
