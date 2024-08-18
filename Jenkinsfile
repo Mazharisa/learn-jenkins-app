@@ -29,6 +29,7 @@ pipeline {
             steps {
                 sh '''
                 echo Test build
+                ls -l /build
                 '''
             }
         }
