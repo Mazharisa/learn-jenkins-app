@@ -22,7 +22,10 @@ pipeline {
                 npm --version
                 npm ci
                 npm run build
-                ls -la'''
+                ls -la
+                npm test
+                a
+                '''
             }
         }
         stage('Test build') {
