@@ -25,5 +25,12 @@ pipeline {
                 ls -la'''
             }
         }
+        stage('Test build') {
+            steps {
+                sh '''
+                echo Test build
+                '''
+            }
+        }
     }
 }
