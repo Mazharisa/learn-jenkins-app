@@ -24,7 +24,6 @@ pipeline {
                 npm run build
                 ls -la
                 npm test
-                a
                 '''
             }
         }
