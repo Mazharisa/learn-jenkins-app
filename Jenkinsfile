@@ -27,7 +27,7 @@ pipeline {
                 '''
             }
         }
-        /*
+
         stage('Test build') {
             steps {
                 sh '''
@@ -36,7 +36,7 @@ pipeline {
                 '''
             }
         }
-        */
+        
     }
     post {
         always {
